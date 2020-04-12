@@ -1,0 +1,11 @@
+node_modules/
+dist/
+npm-debug.log
+*.swp
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+migrations/
+.vscode/
+*.env

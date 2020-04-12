@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   {% block title %}
+  <title>Django Vue Template</title>
+  {% endblock title %}
+
+  {% block links %}
+  {% include 'partials/styles_part.html' %}
+  {% endblock links %}
+  {% block styles %}
+  {% endblock styles %}
+</head>
+<body>
+
+  {% block content %}
+  {% endblock content %}
+
+  {% block scripts %}
+  {% include 'partials/scripts_part.html' %}
+  {% endblock scripts %}
+
+</body>
+</html>
