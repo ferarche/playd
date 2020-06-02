@@ -2,18 +2,18 @@
 {% load static %}
 {% block links %}
 {{ block.super }}
-<link rel='stylesheet' href=""></link>
+<link rel='stylesheet' href="{% static 'client/dist/app.css' %}"></link>
 {% endblock %}
 {% block content %}
-
 <div id="appHome">
   	<div id="app">
-      <h1> App </h1>
-	</div>
+    </div>
 </div>
 {% endblock %}
 
 {% block scripts %}
   {{ block.super }}
-  <script src=""></script>
+<script src="{% static 'client/dist/vendors.bundle.js' %}"></script>
+<script src="{% static 'client/dist/runtime.bundle.js' %}"></script>
+<script src="{% static 'client/dist/app.bundle.js' %}"></script>
 {% endblock %}

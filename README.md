@@ -1,2 +1,2 @@
-# djtemp
-Basic Django VueJS template
+# Playd	
+Playground for code tries
